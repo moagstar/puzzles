@@ -9,7 +9,7 @@ base_url = 'http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/'
 
 
 # get notebooks
-root_path = os.path.dirname(__file__) + '\\'
+root_path = os.path.dirname(os.path.abspath(__file__)) + '/'
 it = [
     os.path.split(os.path.join(root, filename).replace(root_path, ''))
     for root, dirs, files in os.walk(root_path)
@@ -43,6 +43,6 @@ with open(os.path.join(root_path, 'README.md'), 'w') as o:
 
 
 # add, commit and push
-os.system('call git add .')
-os.system('call git commit -m "' + sys.argv[1] + '"')
-os.system('call git push origin master')
+os.system('git add .')
+os.system('git commit -m "' + sys.argv[1] + '"')
+os.system('git push origin master')
