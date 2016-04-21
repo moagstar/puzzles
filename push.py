@@ -25,7 +25,7 @@ links = []
 for group, items in it:
     links += ['## ' + group]
     links += [
-        '<a href="{0}{1}" target="_blank">{2}'.format(
+        '<a href="{0}{1}" target="_blank">{2}</a><br>'.format(
             base_url,
             urllib.quote('/'.join(item)),
             os.path.splitext(item[1])[0]
