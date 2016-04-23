@@ -1,5 +1,7 @@
 # puzzles
 IPython notebooks with solutions to programming puzzles
+## Algorithms
+<a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/Algorithms/Triangle.ipynb" target="_blank">Triangle</a><br>
 ## Array
 <a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/Array/Rotate%20Array.ipynb" target="_blank">Rotate Array</a><br>
 ## Sort
