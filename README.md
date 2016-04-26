@@ -4,6 +4,7 @@ IPython notebooks with solutions to programming puzzles
 <a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/Algorithms/Triangle.ipynb" target="_blank">Triangle</a><br>
 ## Array
 <a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/Array/Rotate%20Array.ipynb" target="_blank">Rotate Array</a><br>
+<a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/Array/Pascal%27s%20Triangle.ipynb" target="_blank">Pascal's Triangle</a><br>
 ## Class Design
 <a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/Class%20Design/%20Python%20URI.ipynb" target="_blank"> Python URI</a><br>
 ## Graph
