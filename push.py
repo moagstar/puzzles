@@ -31,7 +31,7 @@ it = itertools.groupby(it, key=lambda x: x[0])
 # generate links
 links = []
 for group, items in it:
-    links += ['## ' + group]
+    links += ['### ' + group]
     links += [
         '<a href="{0}{1}" target="_blank">{2}</a><br>'.format(
             base_url,

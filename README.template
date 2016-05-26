@@ -1,6 +1,12 @@
 # puzzles
 IPython notebooks with solutions to programming puzzles.
 
+## Dependencies
+
+```shell
+$$ pip install ipython
+```
+
 To run:
 
 ```shell
