@@ -1,3 +1,16 @@
 # puzzles
-IPython notebooks with solutions to programming puzzles
+IPython notebooks with solutions to programming puzzles.
+
+To run:
+
+```shell
+$$ ipython notebook
+```
+
+To push changes (and generate this README):
+
+```shell
+$$ python push.py <comment>
+```
+
 ${links}

@@ -1,5 +1,18 @@
 # puzzles
-IPython notebooks with solutions to programming puzzles
+IPython notebooks with solutions to programming puzzles.
+
+To run:
+
+```shell
+$ ipython notebook
+```
+
+To push changes (and generate this README):
+
+```shell
+$ python push.py <comment>
+```
+
 ## Algorithms
 <a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/Algorithms/Triangle.ipynb" target="_blank">Triangle</a><br>
 ## Array

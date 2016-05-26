@@ -1,6 +1,14 @@
 import os, sys, fnmatch, itertools, urllib, string
 
 
+PY2 = sys.version_info[0] == 2
+if PY2:
+    urlquote = urllib.quote
+else:
+    import urllib.parse
+    urlquote = urllib.parse.quote
+
+
 if len(sys.argv) < 2:
     raise Exception('expected commit message as parameter')
 
@@ -27,7 +35,7 @@ for group, items in it:
     links += [
         '<a href="{0}{1}" target="_blank">{2}</a><br>'.format(
             base_url,
-            urllib.quote('/'.join(item)),
+            urlquote('/'.join(item)),
             os.path.splitext(item[1])[0]
         )
         for item in items
