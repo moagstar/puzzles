@@ -36,4 +36,5 @@ $ python push.py <comment>
 ### String
 <a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/String/Word%20Ladder%20II.ipynb" target="_blank">Word Ladder II</a><br>
 <a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/String/Valid%20Number.ipynb" target="_blank">Valid Number</a><br>
+<a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/String/Integer%20to%20English%20Words.ipynb" target="_blank">Integer to English Words</a><br>
 <a href="http://nbviewer.jupyter.org/github/moagstar/puzzles/blob/master/String/Text%20Justification.ipynb" target="_blank">Text Justification</a><br>
